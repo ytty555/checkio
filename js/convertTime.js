@@ -1,3 +1,5 @@
+// Конвертация времени в формат 09:15 a.m.
+
 function timeConverter(dayTime) {
   let arrTimeStr = dayTime.match(/\d\d/g);
   let h = Number(arrTimeStr[0]);

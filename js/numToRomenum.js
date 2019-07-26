@@ -1,3 +1,4 @@
+// Перевод чисел от 1 до 3999 в формат римских чисел
 
 function romanNumerals(number) {
   const romNum = {

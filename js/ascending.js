@@ -1,3 +1,5 @@
+// Проверяет, являются ли элементы массива упорядоченными по возрастанию
+
 function isAscending(items) {
     if (items == [] || items.length == 1) return true;
     let lastItem = items[0];
